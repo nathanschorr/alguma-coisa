@@ -2,8 +2,9 @@
   "name": "primeiro",
   "version": "1.0.0",
   "description": "",
-  "main": "calc.js",
+  "main": "index.js",
   "scripts": {
+    "exec": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
