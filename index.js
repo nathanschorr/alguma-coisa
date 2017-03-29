@@ -1,3 +1,3 @@
 const { soma } = require('./calc');
 
-console.log(soma(2, 5));
+console.log('resultado da soma é: ', soma(6, 5));
