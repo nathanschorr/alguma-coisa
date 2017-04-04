@@ -21,3 +21,9 @@ lab.test('não passando parâmetros', (done) => {
     expect(r.message).to.equal("parâmentos faltando")
     done();
 });
+
+lab.test('parâmetros string', (done) => {
+    const r = soma('a', 'b');
+    expect(r.message).to.equal("parâmentos inválidos")
+    done();
+});
